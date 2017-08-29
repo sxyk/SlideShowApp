@@ -75,6 +75,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="SlideShowButton" destination="Pk3-Pm-FMG" id="ggR-dL-7yd"/>
                         <outlet property="imageNextO" destination="RxF-qK-ZIB" id="iq3-n5-OKm"/>
                         <outlet property="imagePrevO" destination="dua-5C-G8B" id="JJd-Oh-B2r"/>
                         <outlet property="imageview" destination="tqI-KF-KE6" id="4X0-dp-ozc"/>

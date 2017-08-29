@@ -27,9 +27,9 @@
 		54EDFC7E1F49C9F90055DA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54EDFC801F49C9F90055DA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54EDFC861F49CB430055DA00 /* bigImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bigImageViewController.swift; sourceTree = "<group>"; };
-		54EDFC881F49D03C0055DA00 /* hirozaile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hirozaile.jpg; path = ../../../Downloads/hirozaile.jpg; sourceTree = "<group>"; };
-		54EDFC891F49D03C0055DA00 /* nanataso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nanataso.jpg; path = ../../../Downloads/nanataso.jpg; sourceTree = "<group>"; };
-		54EDFC8A1F49D03C0055DA00 /* nozomin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nozomin.jpg; path = ../../../Downloads/nozomin.jpg; sourceTree = "<group>"; };
+		54EDFC881F49D03C0055DA00 /* hirozaile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hirozaile.jpg; path = ../../../../Downloads/hirozaile.jpg; sourceTree = "<group>"; };
+		54EDFC891F49D03C0055DA00 /* nanataso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nanataso.jpg; path = ../../../../Downloads/nanataso.jpg; sourceTree = "<group>"; };
+		54EDFC8A1F49D03C0055DA00 /* nozomin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nozomin.jpg; path = ../../../../Downloads/nozomin.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,9 +46,6 @@
 		54EDFC681F49C9F90055DA00 = {
 			isa = PBXGroup;
 			children = (
-				54EDFC881F49D03C0055DA00 /* hirozaile.jpg */,
-				54EDFC891F49D03C0055DA00 /* nanataso.jpg */,
-				54EDFC8A1F49D03C0055DA00 /* nozomin.jpg */,
 				54EDFC731F49C9F90055DA00 /* SlideShowApp */,
 				54EDFC721F49C9F90055DA00 /* Products */,
 			);
@@ -72,6 +69,9 @@
 				54EDFC7B1F49C9F90055DA00 /* Assets.xcassets */,
 				54EDFC7D1F49C9F90055DA00 /* LaunchScreen.storyboard */,
 				54EDFC801F49C9F90055DA00 /* Info.plist */,
+				54EDFC881F49D03C0055DA00 /* hirozaile.jpg */,
+				54EDFC891F49D03C0055DA00 /* nanataso.jpg */,
+				54EDFC8A1F49D03C0055DA00 /* nozomin.jpg */,
 			);
 			path = SlideShowApp;
 			sourceTree = "<group>";
@@ -318,6 +318,7 @@
 				54EDFC851F49C9F90055DA00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

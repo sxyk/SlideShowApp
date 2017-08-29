@@ -12,17 +12,20 @@ class ViewController: UIViewController {
     
     var timer :Timer!
     
+    @IBOutlet var SlideShowButton: UIButton!
+    
     @IBAction func slideShow(_ sender: Any) {
         if timer == nil {
             self.timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(imageNext(_:)), userInfo: nil, repeats: true)
             imageNextO.isEnabled = false
             imagePrevO.isEnabled = false
-            
+            SlideShowButton.setTitle("停止", for: .normal)
         } else {
             self.timer.invalidate()
             self.timer = nil
             imageNextO.isEnabled = true
             imagePrevO.isEnabled = true
+            SlideShowButton.setTitle("再生", for: .normal)
         }
     }
     
