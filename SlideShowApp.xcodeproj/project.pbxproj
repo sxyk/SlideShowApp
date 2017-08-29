@@ -13,9 +13,9 @@
 		54EDFC7C1F49C9F90055DA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54EDFC7B1F49C9F90055DA00 /* Assets.xcassets */; };
 		54EDFC7F1F49C9F90055DA00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54EDFC7D1F49C9F90055DA00 /* LaunchScreen.storyboard */; };
 		54EDFC871F49CB430055DA00 /* bigImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EDFC861F49CB430055DA00 /* bigImageViewController.swift */; };
-		54EDFC8B1F49D03C0055DA00 /* hirozaile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EDFC881F49D03C0055DA00 /* hirozaile.jpg */; };
-		54EDFC8C1F49D03C0055DA00 /* nanataso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EDFC891F49D03C0055DA00 /* nanataso.jpg */; };
-		54EDFC8D1F49D03C0055DA00 /* nozomin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EDFC8A1F49D03C0055DA00 /* nozomin.jpg */; };
+		54EDFCAF1F55A33A0055DA00 /* hirozaile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EDFCAC1F55A33A0055DA00 /* hirozaile.jpg */; };
+		54EDFCB01F55A33A0055DA00 /* nanataso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EDFCAD1F55A33A0055DA00 /* nanataso.jpg */; };
+		54EDFCB11F55A33A0055DA00 /* nozomin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 54EDFCAE1F55A33A0055DA00 /* nozomin.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		54EDFC7E1F49C9F90055DA00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54EDFC801F49C9F90055DA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54EDFC861F49CB430055DA00 /* bigImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bigImageViewController.swift; sourceTree = "<group>"; };
-		54EDFC881F49D03C0055DA00 /* hirozaile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hirozaile.jpg; path = ../../../../Downloads/hirozaile.jpg; sourceTree = "<group>"; };
-		54EDFC891F49D03C0055DA00 /* nanataso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nanataso.jpg; path = ../../../../Downloads/nanataso.jpg; sourceTree = "<group>"; };
-		54EDFC8A1F49D03C0055DA00 /* nozomin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nozomin.jpg; path = ../../../../Downloads/nozomin.jpg; sourceTree = "<group>"; };
+		54EDFCAC1F55A33A0055DA00 /* hirozaile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hirozaile.jpg; sourceTree = "<group>"; };
+		54EDFCAD1F55A33A0055DA00 /* nanataso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nanataso.jpg; sourceTree = "<group>"; };
+		54EDFCAE1F55A33A0055DA00 /* nozomin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nozomin.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +69,9 @@
 				54EDFC7B1F49C9F90055DA00 /* Assets.xcassets */,
 				54EDFC7D1F49C9F90055DA00 /* LaunchScreen.storyboard */,
 				54EDFC801F49C9F90055DA00 /* Info.plist */,
-				54EDFC881F49D03C0055DA00 /* hirozaile.jpg */,
-				54EDFC891F49D03C0055DA00 /* nanataso.jpg */,
-				54EDFC8A1F49D03C0055DA00 /* nozomin.jpg */,
+				54EDFCAC1F55A33A0055DA00 /* hirozaile.jpg */,
+				54EDFCAD1F55A33A0055DA00 /* nanataso.jpg */,
+				54EDFCAE1F55A33A0055DA00 /* nozomin.jpg */,
 			);
 			path = SlideShowApp;
 			sourceTree = "<group>";
@@ -136,12 +136,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54EDFC8D1F49D03C0055DA00 /* nozomin.jpg in Resources */,
+				54EDFCB11F55A33A0055DA00 /* nozomin.jpg in Resources */,
 				54EDFC7F1F49C9F90055DA00 /* LaunchScreen.storyboard in Resources */,
 				54EDFC7C1F49C9F90055DA00 /* Assets.xcassets in Resources */,
 				54EDFC7A1F49C9F90055DA00 /* Main.storyboard in Resources */,
-				54EDFC8B1F49D03C0055DA00 /* hirozaile.jpg in Resources */,
-				54EDFC8C1F49D03C0055DA00 /* nanataso.jpg in Resources */,
+				54EDFCAF1F55A33A0055DA00 /* hirozaile.jpg in Resources */,
+				54EDFCB01F55A33A0055DA00 /* nanataso.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
